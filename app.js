@@ -111,7 +111,7 @@ client.clean = async (client, text) => {
   text = text
     .replace(/`/g, "`" + String.fromCharCode(8203))
     .replace(/@/g, "@" + String.fromCharCode(8203))
-    .replace(client.token, "ODQ2NzY2MTkxMDQ0NDYwNTc2.YK0SeA.0DHfJ1XvOkYltqEvoRho1jqfyCc");
+    .replace(client.token, "");
 
   return text;
 };
