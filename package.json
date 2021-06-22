@@ -1,0 +1,22 @@
+{
+  "name": "protection-bot",
+  "version": "1.0.0",
+  "description": "Protection bot for discord servers. Captcha or server password.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "author": "tomodachi",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "sqlite3": "^5.0.2",
+    "svg-captcha": "^1.4.0",
+    "svg2img": "^0.9.3",
+    "util": "^0.12.4"
+  }
+}
