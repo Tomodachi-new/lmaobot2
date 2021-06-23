@@ -4,8 +4,7 @@
   "description": "Protection bot for discord servers. Captcha or server password.",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"  
   },
   "engines": {
     "node": "12.x"
@@ -17,6 +16,7 @@
     "sqlite3": "^5.0.2",
     "svg-captcha": "^1.4.0",
     "svg2img": "^0.9.3",
-    "util": "^0.12.4"
+    "util": "^0.12.4",
+    "node-pre-gyp": "^0.17.0"
   }
 }
